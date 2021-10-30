@@ -4,7 +4,7 @@ A coarse semantic segmentation dataset for pedestrian roads in Singapore. This d
 
 # Background
 
-The primary aim of this project is to have fun! Like many others, I have caught the cycling bug in this past 2 years of pandemic. Hence, coming up with a project to marry this favourite past time of mine with my curiosity for computer vision was straightforward. 
+The primary aim of this project is to have fun! Like many others, I have caught the cycling bug in these past 2 years of pandemic. Hence, coming up with a project to marry this favourite past time of mine with my curiosity for computer vision was straightforward. 
 
 It is also interersting to find out if segmentation models trained on European cities translate well to Singapore's garden-city state.
 
@@ -33,7 +33,7 @@ The 7 cycling routes presented in this dataset:
   <a><b>Top:</b> SG-Cyclingscapes  <b>Bottom:</b> Cityscapes equivalent breakdown, extracted from its paper: https://arxiv.org/abs/1604.01685</a>
 </p>
 
-The ranking of the classes within its grounping was similar to Cityscapes. There were also alot more trucks than cars as some of the cycling routes have ongoing building constructions nearby.<br><br>
+The ranking of the classes within its grounping was very similar to Cityscapes. There were also alot more trucks than cars as some of the cycling routes have ongoing building constructions nearby.<br><br>
 
 <p align="center">
   <img src="https://github.com/Ivan-LZY/SG-Cyclingscapes/blob/main/imgs/4DatasetSplit.jpg">
@@ -158,7 +158,7 @@ After testing the calibration with various FOV settings in my GoPro, in my subje
 
 Inference was done with OpenMMLab’s implementation of DeepLabV3+, pre-trained on the Cityscapes semantic segmentation dataset, with a mIoU of 80.97%.
 
-Do refer to XXX.py for the inference code that I used to generate and save the masks and its visualizations. For the installation of the required packages, do follow the guide on OpenMMLab’s [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) repository.
+Do refer to [here](https://github.com/Ivan-LZY/SG-Cyclingscapes/blob/main/scripts/Run_Inference/) for the inference code that I used to generate and save the masks and its visualizations. For the installation of the required packages, do follow the guide on OpenMMLab’s [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) repository.
 
 <p align="center">
   <img src="https://github.com/Ivan-LZY/SG-Cyclingscapes/blob/main/imgs/11inference.jpg">
@@ -210,7 +210,7 @@ Refer to [gen_json_from_masks.py](https://github.com/Ivan-LZY/SG-Cyclingscapes/b
 
 # Dataset download
 
-[google drive link](https://drive.google.com/file/d/1S_wlqXRVyvowlDwwUz1jCLuGiAxHkXwu/view?usp=sharing)
+[Google drive link](https://drive.google.com/file/d/1S_wlqXRVyvowlDwwUz1jCLuGiAxHkXwu/view?usp=sharing)
 
 # Future plans for this project
 
