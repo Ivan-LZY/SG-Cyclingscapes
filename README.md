@@ -10,14 +10,10 @@ It is also interersting to find out if segmentation models trained on European c
 
 This project came at a cost of: 
 
-- Getting a GoPro camera.
+- A GoPro camera.
 - 7 cycling trips around Singapore which have collectively clocked around 300km.
-- Time spent extracting & processing video frames.
-- A bit of blood, lots of sweat and some tears of joy.
 
-I hope that this dataset will be useful to anyone trying to develop urban autonomous systems at home. In this vein, I have provided a subset of the dataset in this repository. This subset contains 300 images with some objects of interest blurred out for privacy.
-
-I will continue to improve on the dataset annotation quality when new state-of-the-art semantic segmentation models come out or look into ways to fine tune my image processing steps. Any technical feedback for this project is hugely appreciated!
+This dataset will be useful to anyone trying to develop urban autonomous systems at home. In this vein, I have provided a subset of the dataset in this repository. This subset contains 300 images with some objects of interest blurred out for privacy.
 
 The 7 cycling routes presented in this dataset:
 
